@@ -10,7 +10,7 @@ li {
 
 body {
     background-color: #D71313;
-    color: #3a9e5b;
+    color: #EEEDED;
     font-family: 'Labrada';
     }
     
@@ -20,14 +20,18 @@ body {
       }
       li {
         display: inline-block;
-        padding: 1rem; /* not such a good idea */
-        border-left: 1px solid rgb(213, 21, 21); /* neither is this */
-        
+        padding: 1rem; 
+        border-left: 1px solid rgb(213, 21, 21);
+    
       }
       a {
-        color: rgb(192, 49, 49);
+        color: #EEEDED;
         text-decoration: none;
         
-          border-bottom: 2px solid white;
+          border-bottom: 2px solid #E59934;
         }
       
+        .text-center {
+            text-align: center;
+          }
+                
