@@ -1,37 +1,71 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Honk&family=Labrada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
 h1 {
     font-family: 'Honk';
-
+ color: chartreuse;
+ text-align: center;
 }
-li {
-    display: inline-block;
-  }
+h2 {
+  font-family: 'Honk';
+color: chartreuse;
+text-align: center;
+}
+
+
+
 
 body {
-    background-color: #D71313;
-    color: #EEEDED;
+    background-color: #20951c;
     font-family: 'Labrada';
-    }
-    
+    color: rebeccapurple;
+    text-align: center;
+  }
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: rebeccapurple;
+    border: none;
+    color: limegreen;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
     nav {
-        font-family: 'Slim Jim', 'Impact', 'Arial Black', sans-serif;
-        background: black;
+        font-family: 'Rubik Mono One', 'Impact', 'Arial Black', sans-serif;
+        
+        font-size: 20px;
+        margin: 0px 350px 0px 350px;
+        position: sticky;
+        top: 0px;
+        text-align: center;
+
+
       }
       li {
         display: inline-block;
         padding: 1rem; 
-        border-left: 1px solid rgb(213, 21, 21);
+        
     
       }
       a {
         color: #EEEDED;
         text-decoration: none;
         
-          border-bottom: 2px solid #E59934;
+          border-bottom: 2px solid #b334e5;
         }
       
         .text-center {
             text-align: center;
           }
-                
+
+          a:hover{
+            color: aqua;
+          }
+     
+
+     a:active{
+color: chartreuse;
+     }
+
+     a:visited {color: rgb(156, 43, 184);}
