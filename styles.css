@@ -69,3 +69,10 @@ color: chartreuse;
      }
 
      a:visited {color: rgb(156, 43, 184);}
+
+
+
+     @media (min-length: 60px) {
+      
+nav { margin: 0px;}
+     }

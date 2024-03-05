@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,7 @@
     <link rel="stylesheet" href="styles.css">
     <nav>
         <ul>
-              <li><a href="contact_me.html">contact_me</a></li>
+              <li><a href="contact_me.html">contact me</a></li>
               <li><a href="interests.html">interests</a></li>
               <li><a href="projects.html">projects</a></li>
               <li><a href="certification.html">certifications</a></li>
@@ -16,16 +17,48 @@
           <li> <a href="index.html">Home page </a></li>
         </ul>
           </nav>
-    <h1 class="text-center">hello MONKEYS</h1>
-
+    <h1 class="text-center">How To contact Me!</h1>
+    <style>
+        input [type=text] {
+        
+        width: 100%;
+        padding: 12px 20x;
+        margin: 8px 0;
+        box-sizing: border-box;
+        }
+ </style>
 
 
 </head>
 <body>
-    hello world 
-
-
     
+
+<h2>Insert Information here please.</h2>
+
+<input name="send-to" value="cpaynter@brooklynsteamcenter.org" hidden>
+
+<form
+action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+method="post"> <input name="send-to" value="cpaynter@brooklynsteamcenter.org" hidden>
+  <label for="fname">First Name</label> <br>
+  <input type="text" id="fname" name="fname" value="" placeholder="Jimmy"><br>
+  <label for="lname">Last Name</label> <br>
+  <input type="text" id="lname" name="lname" value="" placeholder="Pimmy"><br>
+  <label for="email">Email</label> <br>
+  <input type="email" id="email" name="email" value="" placeholder="nahi'dwin@gmail.com"><br>
+  <label for="sex">Gender</label> <br>
+  <input type="text" id="sex" name="sex" value="" placeholder="what gender are you?"> <br>
+  <label for="pronoun">Pronouns</label> <br>
+  <input type="text" id="pronoun" name="pronoun" value="" placeholder="nobody/knows"><br>
+  <label for="phonenumber">Phone Number (optional)</label> <br>
+  <input type="number" id="phonenumber" name="phonenumber" value="" placeholder="xxx-xxx-xxxx"><br>
+
+  
+  <input type="reset" value="Reset">
+  <input type="submit" value="Submit">
+</form>
+
+
 
 
 
